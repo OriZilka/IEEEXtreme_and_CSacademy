@@ -12,7 +12,8 @@ for i in range(t):
         wt_value, pow_value = input().split()
         wt_value = int(wt_value)
         pow_value = int(pow_value)
-        wt.append(wt_value) 
+        
+		wt.append(wt_value) 
         val.append(pow_value) 
   
     K = [[0 for x in range(c + 1)] for x in range(g + 1)]
